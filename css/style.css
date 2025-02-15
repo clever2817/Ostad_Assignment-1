@@ -14,8 +14,9 @@ h2 {
   font-family: "Poppins", serif;
 }
 
-h2{
-    font-size: 4rem;
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 p,
@@ -82,7 +83,7 @@ button {
 }
 
 .arrowIcon {
-  margin-top: 12rem;
+  margin-top: 14rem;
 }
 
 .heroText {
@@ -98,19 +99,33 @@ button {
   margin-right: 13rem;
 }
 
-.hireMebtn{
-    margin-right: 20px;
+.hireMebtn {
+  margin-right: 20px;
 }
 
-.heroImg img{
-    margin-top: 3rem;
+.heroImg img {
+  margin-top: 3rem;
+}
+
+.aboutText p span {
+  color: #eeeeee;
+  font-weight: bold;
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14rem;
+  align-items: center;
 }
 
 .aboutText p{
-    color: #eeeeeeBF;
+  padding-left: 13rem;
+  color: #eeeeeeBF;
 }
 
-.aboutText p span{
-    color: #eeeeee;
-    font-weight: bold;
+.aboutImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 14rem;
 }
