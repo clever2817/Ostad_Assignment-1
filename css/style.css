@@ -14,6 +14,10 @@ h2 {
   font-family: "Poppins", serif;
 }
 
+h2{
+    font-size: 4rem;
+}
+
 p,
 li a,
 input,
@@ -100,4 +104,13 @@ button {
 
 .heroImg img{
     margin-top: 3rem;
+}
+
+.aboutText p{
+    color: #eeeeeeBF;
+}
+
+.aboutText p span{
+    color: #eeeeee;
+    font-weight: bold;
 }
